@@ -1,0 +1,12 @@
+---
+layout: default
+title: Stephane Godbillon's Blog
+---
+
+{% for post in site.posts limit:3 %}
+<article>
+  <span class="publish-date">{{ post.date | date_to_string }}</span>
+  <h2>{{ post.title }}</h2>
+  {{ post.content }}
+</article>
+{% endfor %}
