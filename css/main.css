@@ -33,8 +33,19 @@ p {
     margin-bottom: 9px;
 }
 
+p.notice {
+	background: none repeat scroll 0 0 #E4F9FF;
+    font-size: 14px;
+    padding: 15px;
+}
+
 ul {
 	list-style-position: inside;
+}
+
+h1, h2, h3, h4 {
+	line-height: normal;
+	text-align: left;
 }
 
 a:hover {
@@ -171,7 +182,7 @@ div.container > footer p {
 #tweets li > .date {
 	font-size: 11px;
 }
-#tweets li > .date { float: right; color: #999;}
+#tweets li > .date { float: right; color: #999; }
 #tweets li > .author { font-weight: bold; }
 
 /*
@@ -197,6 +208,10 @@ div.container > footer p {
 	text-align: justify;
 }
 
+.content > article > h2 {
+	margin: 15px 0 20px;
+}
+
 .content > article:not(:last-child) {
 	padding-bottom: 20px;
 	margin-bottom: 30px;
@@ -217,6 +232,7 @@ span.publish-date {
 	float: right;
 	font-style: italic;
 	font-size: 12px;
+	padding: 5px 0;
 }
 
 article#me img {
