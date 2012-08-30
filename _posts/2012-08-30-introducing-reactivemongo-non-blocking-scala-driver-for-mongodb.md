@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "Announcing ReactiveMongo - an Asynchronous, Non-Blocking Scala Driver for MongoDB"
+title: "ReactiveMongo for Scala: Unleashing MongoDB Streaming capabilities for Realtime Web"
 date: 2012-08-30
 ---
 
-
 <p class="notice">
-I am very excited to introduce <a href="http://reactivemongo.org">ReactiveMongo</a>, a brand new Scala driver for MongoDB. More than non-blocking driver, it's a <em>reactive</em> driver that allows you to design very scalable applications.
+I am very excited to introduce <a href="http://reactivemongo.org">ReactiveMongo</a>, a brand new Scala driver for MongoDB. More than just yet-another-async-driver, it's a <em>reactive</em> driver that allows you to design very scalable applications unleashing MongoDB capabilities like streaming infinite live collections and files for modern Realtime Web applications.
 </p>
 
 ### What does reactive mean?
