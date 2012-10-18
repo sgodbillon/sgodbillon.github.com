@@ -1,12 +1,16 @@
 ---
 layout: post
-title: "Writing a simple app with ReactiveMongo and Play Framework, Pt. 1"
+title: "Writing Reactive Apps with ReactiveMongo and Play"
 date: 2012-10-18
 ---
 
+<p class="notice">
+<a href="http://reactivemongo.org">ReactiveMongo</a> is a brand new Scala driver for MongoDB. More than just yet-another-async-driver, it's a reactive driver that allows you to design very scalable applications unleashing MongoDB capabilities like streaming infinite live collections and files for modern Realtime Web applications.
+</p>
+
 Play 2.1 has become the main reference for writing web applications in Scala. It is even better when you use a database driver that shares the same vision and capabilities. If you're planning to write a Play 2.1-based web application with MongoDB as a backend, then [ReactiveMongo](http://reactivemongo.org) is the driver to do this!
 
-This article describes how to start such a project from scratch. We are going to write a simple application that manages articles. Each article has a title, a content, and may embed some attachments (like pictures, PDFs, archives...).
+This article runs you through the process of starting such a project from scratch. We are going to write a simple application that manages articles. Each article has a title, a content, and may embed some attachments (like pictures, PDFs, archives...).
 
 ### Summary
 
