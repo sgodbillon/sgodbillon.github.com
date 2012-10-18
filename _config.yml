@@ -1,1 +1,4 @@
 pygments: true
+name: "Stephane Godbillon's Blog"
+description: "Scala, Play Framework, MongoDB... and all the cool stuff"
+url: http://stephane.godbillon.com/
