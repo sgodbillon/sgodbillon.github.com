@@ -16,7 +16,7 @@ This article describes how to start such a project from scratch. We are going to
 	<li>
 		<a href="#model">Model</a>
 		<ul>
-			<li><a href="#serializing_into_bson__deserilizing_from_bson">Serializing into BSON / Deserializing from BSON</a></li>
+			<li><a href="#serializing_into_bson__deserializing_from_bson">Serializing into BSON / Deserializing from BSON</a></li>
 			<li><a href="#play_form">Play Form</a></li>
 		</ul>
 	</li>
@@ -135,7 +135,7 @@ case class Article(
 
 The `id` field is an `Option` of `BSONObjectID`. An ObjectId is a 12 bytes long unique value that is the standard id type in MongoDB documents.
 
-#### Serializing into BSON / Deserilizing from BSON
+#### Serializing into BSON / Deserializing from BSON
 
 Now, we may write the BSON serializer and deserializer for this case class. This enables to transform an `Article` instance into a BSON document that may be stored into the database and vice versa. ReactiveMongo provides two traits, `BSONReader[T]` and `BSONWriter[T]`, that should be implemented for this purpose.
 
