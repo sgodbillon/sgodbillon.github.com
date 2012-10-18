@@ -224,10 +224,6 @@ ec313e
 
 2964c6 */
 
-.content > article > *:not(h2) {
-	padding-left: 10px;
-}
-
 span.publish-date {
 	float: right;
 	font-style: italic;
@@ -239,4 +235,33 @@ article#me img {
 	margin-right: 15px;
 	float: left;
 	display: block;
+}
+
+ul.summary, ul.summary ul {
+	padding-left: 15px;
+}
+
+code {
+	padding: 0 3px;
+	background: whiteSmoke;
+	border: 1px solid silver;
+	border-radius: 3px;
+}
+
+pre code {
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: none;
+}
+
+pre {
+	background: #FFFFD8;
+	white-space: pre-wrap;
+	padding: 5px 15px;
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.highlight {
+	margin: 20px 0;
 }
