@@ -39,6 +39,10 @@ p.notice {
     padding: 15px;
 }
 
+article blockquote {
+	margin: 50px;
+}
+
 ul {
 	list-style-position: inside;
 }
@@ -256,7 +260,8 @@ pre code {
 }
 
 pre {
-	background: #FFFFD8;
+	/*background: #FFFFD8;*/
+	background: whiteSmoke;
 	white-space: pre-wrap;
 	padding: 5px 15px;
 	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.3);

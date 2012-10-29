@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Writing Reactive Apps with ReactiveMongo and Play"
+title: "Writing Reactive Apps with ReactiveMongo and Play, Pt. 1"
 date: 2012-10-18
 ---
 
