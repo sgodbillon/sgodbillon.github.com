@@ -7,9 +7,9 @@ date: 2013-01-17
 > [ReactiveMongo](http://reactivemongo.org) is a brand new Scala driver for MongoDB. More than just yet-another-async-driver, it's a reactive driver that allows you to design very scalable applications unleashing MongoDB capabilities like streaming infinite live collections and files for modern Realtime Web applications.
 
 
-ReactiveMongo was publicly introduced 4 months ago and I am glad to notice that the community is very active and grows fast. Last month five pull requests were made by ReactiveMongo users, which means that the project is not only played with but used in a production context. ReactiveMongo is on the right track and I think that it's now the time to prepare the first stable release.
+ReactiveMongo was publicly introduced 4 months ago and I am glad to see the community very active and growing fast. Last month several pull requests were made by ReactiveMongo users, which means that the project is not only played with but used in a production context. ReactiveMongo is on the right track and I think that it's now the time to prepare the first stable release.
 
-So I am pleased to announce the official roadmap for the project. Given that ReactiveMongo is pretty full-featured, and that some projects already rely on it, I am labeling the current snapshot as the 0.8 version.
+I am pleased to announce the official roadmap for the project. Given that ReactiveMongo is pretty much full-featured, and that some projects already rely on it, I am labeling the current snapshot as the 0.8 version.
 
 The next versions (0.9 and 1.0) may be expected in the next couple of months. As usual all kinds of contribution are very welcome (pull requests of course, but also feedback, documentation and feature proposals).
 
@@ -22,7 +22,7 @@ Here are the main tasks I will focus on for theses versions:
 * Bugfixing
 * Documentation
 
-Meanwhile, since this may break the current API, you can stick to the 0.8 release and wait for the next ones instead of the snapshots.
+Meanwhile, you can stick to the 0.8 release and wait for the next ones instead of using the snapshots.
 
 
 ### Roadmap
